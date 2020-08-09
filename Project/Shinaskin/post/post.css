@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.post{
+    width: 80%;
+    margin: auto;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,.05);
+    border-right: none;
+    border-left: none;
+}
+.name h1{
+    font-size: 38px;
+    font-weight: 400;
+    color: #333;
+    margin: 10px 0;
+}
+.group-btn i{
+    background-color: rgba(0,0,0,.05);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.group-btn i:hover{
+    background-color: #3578E5;
+}
+
+.context{
+    margin-top: 30px;
+    padding: 0 15px;
+    font-size: 14px;
+    width: 70%;
+}
+.context p{
+    margin-bottom: 10px;
+    color: #444444;  
+    line-height: 20px; 
+}
+.context p:nth-child(1), p:nth-child(3), p:nth-child(11){
+    font-weight: 700;
+}
+.context p:nth-child(5), p:nth-child(7), p:nth-child(9), p:nth-child(14), p:nth-child(17){
+    font-style: italic;
+}
