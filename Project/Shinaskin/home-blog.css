@@ -1,0 +1,51 @@
+.home-blog h3 {
+    margin: 10px 0 3%;
+    text-align: center;
+    color: #333;
+    font-weight: 400;
+}
+
+.home-blog .blog {
+    display: grid;
+    grid-template-columns: calc(100% / 2 - 15px) calc(100% / 2 - 15px);
+    grid-gap: 30px;
+}
+
+.home-blog .blog .calendar {
+    padding: 0 8px 8px;
+    background: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    text-transform: uppercase;
+    color: #777;
+    width: 60px !important;
+    margin-left: 10px;
+}
+
+.home-blog .blog .calendar p:first-child {
+    display: block;
+    font-size: 24px;
+    margin: 0;
+}
+
+.home-blog .blog .calendar p:last-child {
+    font-size: 11px;
+    margin: 0;
+    width: max-content;
+}
+
+.card-body {
+    padding-right: 0;
+}
+
+.home-blog .blog .card-text a {
+    text-decoration: none;
+    color: #428bca;
+}
+
+.home-blog .blog .card-text a:hover {
+    color: #6c8dab;
+}
+
+.home-blog:hover {
+    cursor: pointer;
+}

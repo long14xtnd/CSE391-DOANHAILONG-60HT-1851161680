@@ -1,0 +1,10 @@
+.navs-gallery {
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+
+.navs-gallery img {
+    width: 270px;
+    height: 270px;
+    padding: 0 10px;
+}
